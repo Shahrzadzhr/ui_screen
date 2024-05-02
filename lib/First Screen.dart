@@ -18,8 +18,8 @@ class MainApp extends StatelessWidget {
             
             Positioned(
               top: 100,
-              left: -10,
-              right: 3,
+              left: -20,
+            
              
               child: Image.asset('.idea/assets/chick cupcakes_3D.png',width: 540, height: 540,fit: BoxFit.cover),
               // Updated the path
@@ -42,7 +42,7 @@ class MainApp extends StatelessWidget {
                 child: ClipRRect(
                  borderRadius: BorderRadius.circular(25),
                   child: BackdropFilter(
-               filter: ImageFilter.blur(sigmaX: 60.0, sigmaY: 60.0),
+               filter: ImageFilter.blur(sigmaX: 200.0, sigmaY: 200.0),
                child: Container(
                 decoration: BoxDecoration(
                 color: Colors.transparent,
