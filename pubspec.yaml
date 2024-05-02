@@ -31,5 +31,6 @@ flutter:
   uses-material-design: true
   # Add any additional assets your app requires assets:
   assets:
-    - assets/
+    - .idea/assets/bg_startscreen.png
+    - .idea/assets/chick cupcakes_3D.png
   # Add any custom fonts your app requires
